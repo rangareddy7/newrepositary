@@ -49,7 +49,7 @@ stage('Deployment') {
             // Deployment
                 script {
                     echo "deployment"
-                    sh 'cp MavenProject/multi3/target/*.war /Applications/apache-tomcat-7.0.88/webapps/'
+                    sh 'cp MavenProject/multi3/target/*.war /Applications/apache-tomcat-9.0.39/webapps/'
             }
         }
         stage('publish html report') {

@@ -4,7 +4,7 @@ pipeline {
         stage('Clone') {
             steps {
                 echo "checking out the repo"
-                git ''
+                git 'https://github.com/rangareddy7/newrepositary.git'
             }
         }
         stage('build'){
